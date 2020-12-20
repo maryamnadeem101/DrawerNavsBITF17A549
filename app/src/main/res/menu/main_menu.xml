@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_calc"
+            android:icon="@drawable/calculator"
+            android:title="Calculator" />
+
+        <item
+            android:id="@+id/nav_qna"
+            android:icon="@drawable/qs"
+            android:title="Question/Answer" />
+
+    </group>
+
+    <item android:title="Sample Dummy Items">
+        <menu>
+            <group android:checkableBehavior="single">
+                <item
+                    android:id="@+id/nav_naturesample"
+                    android:icon="@drawable/naturesample"
+                    android:title="Nature" />
+                <item
+                android:id="@+id/nav_eco"
+                android:icon="@drawable/eco"
+                android:title="Eco" />
+
+                <item
+                    android:id="@+id/nav_natppl"
+                    android:icon="@drawable/natppl"
+                    android:title="Nature and People" />
+
+            </group>
+        </menu>
+    </item>
+
+</menu>

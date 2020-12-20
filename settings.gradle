@@ -1,0 +1,3 @@
+include ':checkboxes'
+include ':app'
+rootProject.name = "DrawerNavigationAgainBITF17A549"
